@@ -10,7 +10,11 @@ public class App {
         // total = total + ventas[i]; // acumulando el total de las ventas
         total += ventas[i]; // acumulando el total de las ventas
       }
+
+      Double promedio = total / ventas.length; // promedio de las ventas
       System.out.println("total de ventas: " + total);
+      System.out.println("Promedio de ventas: " + promedio);
+      
     }
 
     public static void main(String[] args)  {
