@@ -76,3 +76,12 @@ boolean: false
 - String
 
 **Su valor por defecto como son clases es null**
+
+
+```java
+String [] nombres = new String [5]; // es una clase, no un tipo primitivo
+// el valor por defecto de un String es null
+// Optional isPresent = Optional.ofNullable(nombres[0]); // si es null, no se ejecuta el if
+char [] letras = new char [5]; // el char si es un tipo primitivo  
+
+```
