@@ -54,3 +54,25 @@ auto1.detener(); // auto1 Toyota Corolla se ha detenido.
 
 AutoMovil.mostrarInformacion(); // Esta es una clase de automóviles.
 ```
+
+## Valores de los primitivos por defecto
+
+```java
+byte: 0
+short: 0
+int: 0
+long: 0L
+float: 0.0f
+double: 0.0d
+char: '\u0000' (carácter nulo)
+boolean: false
+```
+
+## Wrappers (Envoltorios las clases)
+
+- Double
+- Integer
+- Boolean
+- String
+
+**Su valor por defecto como son clases es null**
